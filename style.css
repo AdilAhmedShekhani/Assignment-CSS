@@ -1,0 +1,51 @@
+#Center{
+margin-left: 200px;
+margin-top: 10px;
+}
+
+#Heading{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    text-align: center;
+}
+body{
+    background-image: url(https://universal-conference.com/URC-INCLUDE/images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(2px);
+}
+.text{
+    color: white;
+    text-align: center;
+    text-justify: distribute;
+}
+.Click{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    animation: blink 1s ease-in-out infinite;
+}
+.Click:hover{
+    background-color: white;
+    color: black;
+}
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
